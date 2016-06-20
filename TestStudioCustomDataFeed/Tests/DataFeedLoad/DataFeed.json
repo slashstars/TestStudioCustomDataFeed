@@ -1,0 +1,14 @@
+﻿[
+  {
+    "FirstName": "John",
+    "LastName": "Doe",
+    "Username": "john.doe@email.com",
+    "IsAdmin": false
+  },
+  {
+    "FirstName": "Jane",
+    "LastName": "Doe",
+    "Username": "jane.doe@email.com",
+    "IsAdmin": true
+  }
+]

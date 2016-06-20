@@ -1,0 +1,1966 @@
+{
+  "__type": "ArtOfTest.WebAii.Design.ProjectModel.Test",
+  "__value": {
+    "DomStatesCounter": {},
+    "WebKitExecutionDelay": 0,
+    "ReuseAppWindow": 0,
+    "ProfilerResultsDirectory": null,
+    "ProfilerServerName": null,
+    "ProfilerBenchmarkResultsFilePath": null,
+    "ProfilerBenchmarkResultsId": "00000000-0000-0000-0000-000000000000",
+    "ProfilerConfigurationId": "00000000-0000-0000-0000-000000000000",
+    "ProfilerConfigurations": {},
+    "CurrentReferences": [
+      "System",
+      "System.Core",
+      "ArtOfTest.WebAii, Version=2016.1.330.0, Culture=neutral, PublicKeyToken=4fd5f65be123776c",
+      "ArtOfTest.WebAii.Design, Version=2016.1.330.0, Culture=neutral, PublicKeyToken=4fc62bbc3827ab1d",
+      "Telerik.WebAii.Controls.Html, Version=2016.1.330.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Telerik.WebAii.Controls.Xaml, Version=2016.1.330.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Telerik.WebAii.Controls.Xaml.Wpf, Version=2016.1.330.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Telerik.TestingFramework.Controls.KendoUI, Version=2016.1.330.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a",
+      "System.Windows.Forms",
+      "packages\\Newtonsoft.Json.8.0.3\\lib\\net45\\Newtonsoft.Json.dll",
+      "packages\\NUnit.3.2.1\\lib\\net45\\nunit.framework.dll"
+    ],
+    "Steps": {
+      "__type": "ArtOfTest.Common.Design.ProjectModel.AutomationStepList",
+      "__value": [
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "4f088623-281d-4443-82a7-1084a1bdbb2e",
+            "Description": "Navigate to : 'http://localhost:3000'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.NavigateToActionDescriptor",
+              "__value": {
+                "UseDecodedUrl": true,
+                "NavigateURL": "http://localhost:3000",
+                "BaseUrl": "",
+                "WaitOnElementsTimeout": 0,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": false,
+                "UsejQuery": false,
+                "UseBackupSearch": true,
+                "ClosesBrowser": false,
+                "AjaxTimeout": 0,
+                "Pause": 0,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {},
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 1,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "DataFeedUsezmaqwo50.jyq",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "553ea398-c05c-43c4-bd7e-d03df3db5f6d",
+            "Description": "Click 'LogInButton'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
+              "__value": {
+                "SimulateRealClick": false,
+                "UsejQuery": false,
+                "UseBackupSearch": true,
+                "ClosesBrowser": false,
+                "AjaxTimeout": 0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "target": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "target",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "http://localhost:3000/projectsinfo",
+                          "Query": "",
+                          "BaseUrl": "",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "",
+                          "CompareMode": 2,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "HttpLocalhost3000Projects"
+                        }
+                      },
+                      "Frame": null,
+                      "FindInfo": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "wYulwcTUn9rFBqxxCpttEwGzrsU=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "LogInButton",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=button"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "TextContent=Log in"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": null,
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlButton",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 2,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "DataFeedUse0z20zoyr.fxk",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "24f01146-4c69-45ce-be0b-b572743675ad",
+            "Description": "Enter text 'admin@abc.com' in 'LogInDialogEmailTextbox'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CodedStepDescriptor",
+              "__value": {
+                "Code": "            Pages.HttpLocalhost3000Projects.LogInDialogEmailTextbox.SetInputText(\"admin@abc.com\");\r\n",
+                "RequiresSilverlight": false,
+                "WaitOnElements": true,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "Pause": 0,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {},
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 3,
+            "Id": "EnterLogInEmailTextbox",
+            "StepState": 1,
+            "ContinueOnFailure": false,
+            "StepImageKey": "DataFeedUse004tacdz.nqt",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "2651b5eb-c317-4be6-be01-2909254caf36",
+            "Description": "Enter text 'changeme' in 'LogInDialogPasswordTextbox'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CodedStepDescriptor",
+              "__value": {
+                "Code": "            Pages.HttpLocalhost3000Projects.LogInDialogPasswordTextbox.SetInputText(\"changeme\");\r\n",
+                "RequiresSilverlight": false,
+                "WaitOnElements": true,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "Pause": 0,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {},
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 4,
+            "Id": "EnterLogInDialogPasswordTextbox",
+            "StepState": 1,
+            "ContinueOnFailure": false,
+            "StepImageKey": "DataFeedUseurmgbwln.mbe",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "c7285b07-488f-410c-b3e7-43cb58f64d0d",
+            "Description": "Click 'LogInDialogSignInButton'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
+              "__value": {
+                "SimulateRealClick": false,
+                "UsejQuery": false,
+                "UseBackupSearch": true,
+                "ClosesBrowser": false,
+                "AjaxTimeout": 0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "target": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "target",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "http://localhost:3000/projectsinfo",
+                          "Query": "",
+                          "BaseUrl": "",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "",
+                          "CompareMode": 2,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "HttpLocalhost3000Projects"
+                        }
+                      },
+                      "Frame": null,
+                      "FindInfo": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "sG8RnsdFj+3joDwu8nQBcHZ7AvQ=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "LogInDialogSignInButton",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=button"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "TextContent=Sign in"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": null,
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlButton",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 5,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "DataFeedUse2z2j4rih.efj",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "d7ef27ad-02fa-41c4-bb74-c6cebc98362b",
+            "Description": "Wait for element 'LogOutButton' 'is' visible.",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.VisibleVerificationDescriptor",
+              "__value": {
+                "IsVisible": true,
+                "UseBackupSearch": true,
+                "DataBindVariableName": null,
+                "Timeout": 30000,
+                "CheckInterval": 500,
+                "EnsureStateIsCurrent": false,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "verifyTarget": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "verifyTarget",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "http://localhost:3000/projectsinfo",
+                          "Query": "",
+                          "BaseUrl": "",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "",
+                          "CompareMode": 2,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "HttpLocalhost3000Projects"
+                        }
+                      },
+                      "Frame": null,
+                      "FindInfo": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "8voHd8RqgD2tfyCV7Q2LM9zOisI=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "LogOutButton",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "TextContent=Log out"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=button"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[1]/ul[4]/li[3]/form[1]/button[1]",
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlButton",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 1,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 6,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "DataFeedUsetwmocczn.523",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "22e26ee1-9568-40f6-9228-462a0ad709c8",
+            "Description": "Click 'AdminMenuLink'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
+              "__value": {
+                "SimulateRealClick": false,
+                "UsejQuery": false,
+                "UseBackupSearch": true,
+                "ClosesBrowser": false,
+                "AjaxTimeout": 0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "target": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "target",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "http://localhost:3000/projectsinfo",
+                          "Query": "",
+                          "BaseUrl": "",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "",
+                          "CompareMode": 2,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "HttpLocalhost3000Projects"
+                        }
+                      },
+                      "Frame": null,
+                      "FindInfo": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "5WVxAkx1aZrsKTG1YC3qG1m0v3s=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "AdminMenuLink",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=a"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "id=adminmenu"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": null,
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlAnchor",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 7,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "DataFeedUsepgcz3zkd.eba",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "88bd7936-cffd-4560-a1ff-f14aa965bc23",
+            "Description": "Click 'ManageUsersLink'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
+              "__value": {
+                "SimulateRealClick": false,
+                "UsejQuery": false,
+                "UseBackupSearch": true,
+                "ClosesBrowser": false,
+                "AjaxTimeout": 0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "target": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "target",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "http://localhost:3000/projectsinfo",
+                          "Query": "",
+                          "BaseUrl": "",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "",
+                          "CompareMode": 2,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "HttpLocalhost3000Projects"
+                        }
+                      },
+                      "Frame": null,
+                      "FindInfo": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "irqLz263wKhJelMmOY3226bctTk=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "ManageUsersLink",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=a"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "href=/admin/users"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": null,
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlAnchor",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 8,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "DataFeedUsehviwahgy.okz",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "527f7542-c5a7-41ab-8494-7341edecda75",
+            "Description": "Click 'NewUserButton'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
+              "__value": {
+                "SimulateRealClick": false,
+                "UsejQuery": false,
+                "UseBackupSearch": true,
+                "ClosesBrowser": false,
+                "AjaxTimeout": 0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "target": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "target",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "http://localhost:3000/admin/users",
+                          "Query": "",
+                          "BaseUrl": "",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "",
+                          "CompareMode": 2,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "HttpLocalhost3000AdminUs"
+                        }
+                      },
+                      "Frame": null,
+                      "FindInfo": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "tje00HUxorhTrbCt5mjyW+iHIsA=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "NewUserButton",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=button"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "TextContent=New User"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": null,
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlButton",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 9,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "DataFeedUse0wuhdrlz.ngk",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "b772bdf9-2750-4fbc-b480-61478f1f5025",
+            "Description": "Enter text 'jane.doe@email.com' in 'EmailTextbox'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CodedStepDescriptor",
+              "__value": {
+                "Code": "            Pages.HttpLocalhost3000AdminUs0.EmailTextbox.SetInputText(\"jane.doe@email.com\");\r\n",
+                "RequiresSilverlight": false,
+                "WaitOnElements": true,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "Pause": 0,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {},
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 10,
+            "Id": "EnterEmailTextbox",
+            "StepState": 1,
+            "ContinueOnFailure": false,
+            "StepImageKey": "DataFeedUse1ktrymhh.2ve",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "627d3c13-3699-43da-a666-e8feacea8aca",
+            "Description": "Enter text 'Doe' in 'LastNameTextbox'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CodedStepDescriptor",
+              "__value": {
+                "Code": "            Pages.HttpLocalhost3000AdminUs0.LastNameTextbox.SetInputText(\"Doe\");\r\n",
+                "RequiresSilverlight": false,
+                "WaitOnElements": true,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "Pause": 0,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {},
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 11,
+            "Id": "EnterLastNameTextbox",
+            "StepState": 1,
+            "ContinueOnFailure": false,
+            "StepImageKey": "DataFeedUseoilnwj3s.flj",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "bb7136e5-afcc-4912-bb8e-2c1e6c43a03f",
+            "Description": "Enter text 'Jane' in 'FirstNameTextbox'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CodedStepDescriptor",
+              "__value": {
+                "Code": "            Pages.HttpLocalhost3000AdminUs0.FirstNameTextbox.SetInputText(\"Jane\");\r\n",
+                "RequiresSilverlight": false,
+                "WaitOnElements": true,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "Pause": 0,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {},
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 12,
+            "Id": "EnterFirstNameTextbox",
+            "StepState": 1,
+            "ContinueOnFailure": false,
+            "StepImageKey": "DataFeedUse0fcjlkpb.b4w",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "d471fdae-88a2-49ee-9865-67f536877bdc",
+            "Description": "Enter text '1234567890' in 'PasswordTextbox'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CodedStepDescriptor",
+              "__value": {
+                "Code": "            Pages.HttpLocalhost3000AdminUs0.PasswordTextbox.SetInputText(\"1234567890\");\r\n",
+                "RequiresSilverlight": false,
+                "WaitOnElements": true,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "Pause": 0,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {},
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 13,
+            "Id": "EnterPasswordTextbox",
+            "StepState": 1,
+            "ContinueOnFailure": false,
+            "StepImageKey": "DataFeedUsef0xz41lv.mlf",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "64d9a775-f698-478e-86ea-f7e272747fe9",
+            "Description": "Enter text '1234567890' in 'RepeatPasswordTextbox'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CodedStepDescriptor",
+              "__value": {
+                "Code": "            Pages.HttpLocalhost3000AdminUs0.RepeatPasswordTextbox.SetInputText(\"1234567890\");\r\n",
+                "RequiresSilverlight": false,
+                "WaitOnElements": true,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "Pause": 0,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {},
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 14,
+            "Id": "EnterRepeatPasswordTextbox",
+            "StepState": 1,
+            "ContinueOnFailure": false,
+            "StepImageKey": "DataFeedUsezpoqurph.xjk",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "b12f9a49-dbbd-40ef-8487-d87b66d2aa4a",
+            "Description": "Check 'IsAdminCheckBox' to be 'True'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CheckActionDescriptor",
+              "__value": {
+                "CheckedState": true,
+                "InvokeOnClick": false,
+                "InvokeOnChange": false,
+                "UsejQuery": false,
+                "UseBackupSearch": true,
+                "ClosesBrowser": false,
+                "AjaxTimeout": 0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "checkBox": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "checkBox",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "http://localhost:3000/admin/users/new",
+                          "Query": "",
+                          "BaseUrl": "",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "",
+                          "CompareMode": 2,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "HttpLocalhost3000AdminUs0"
+                        }
+                      },
+                      "Frame": null,
+                      "FindInfo": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "zWrO+KzYm8BRJ1SxrHAQPzFvHTM=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "IsAdminCheckBox",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "name=form"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "TagIndex=input:5"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": [
+                                    1
+                                  ]
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": null,
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlInputCheckBox",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 15,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "DataFeedUsersbkbj4u.kzd",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "af34f9c6-62bf-43e8-ac14-441952d65929",
+            "Description": "Click 'SaveButton'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
+              "__value": {
+                "SimulateRealClick": false,
+                "UsejQuery": false,
+                "UseBackupSearch": true,
+                "ClosesBrowser": false,
+                "AjaxTimeout": 0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "target": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "target",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "http://localhost:3000/admin/users/new",
+                          "Query": "",
+                          "BaseUrl": "",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "",
+                          "CompareMode": 2,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "HttpLocalhost3000AdminUs0"
+                        }
+                      },
+                      "Frame": null,
+                      "FindInfo": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "9BPEg1WAv42cJr47Xb0B/TUpzts=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "SaveButton",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=button"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "TextContent=Save"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": null,
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlButton",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 16,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "DataFeedUse1rqzqma3.lst",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "f1cc00e1-a388-414f-aa21-96dbf8fedbd1",
+            "Description": "Wait for element 'UserCreationSuccessfulDiv' 'is' visible.",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.VisibleVerificationDescriptor",
+              "__value": {
+                "IsVisible": true,
+                "UseBackupSearch": true,
+                "DataBindVariableName": null,
+                "Timeout": 30000,
+                "CheckInterval": 500,
+                "EnsureStateIsCurrent": false,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "verifyTarget": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "verifyTarget",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "http://localhost:3000/admin/users",
+                          "Query": "",
+                          "BaseUrl": "",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "",
+                          "CompareMode": 2,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "HttpLocalhost3000AdminUs"
+                        }
+                      },
+                      "Frame": null,
+                      "FindInfo": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "ccFENRlBtU63rMrna2z5noK+eNs=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "UserCreationSuccessfulDiv",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "TextContent=^A user with id "
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=div"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/div[2]/div[1]",
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlDiv",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 1,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 17,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "DataFeedUse2lvtxz2b.pbv",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "8f0ee53c-59e0-4676-ba7b-f2bcd9b38427",
+            "Description": "Click 'LogOutButton'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
+              "__value": {
+                "SimulateRealClick": false,
+                "UsejQuery": false,
+                "UseBackupSearch": true,
+                "ClosesBrowser": false,
+                "AjaxTimeout": 0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "target": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "target",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "http://localhost:3000/admin/users",
+                          "Query": "",
+                          "BaseUrl": "",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "",
+                          "CompareMode": 2,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "HttpLocalhost3000AdminUs"
+                        }
+                      },
+                      "Frame": null,
+                      "FindInfo": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "8voHd8RqgD2tfyCV7Q2LM9zOisI=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "LogOutButton",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=button"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "TextContent=Log out"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": null,
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlButton",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 18,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "DataFeedUseagan1ios.b45",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        }
+      ]
+    },
+    "IndependentDescriptors": [
+      {
+        "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+        "__value": {
+          "Name": "",
+          "Region": null,
+          "Page": {
+            "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+            "__value": {
+              "Path": "http://localhost:3000/projectsinfo",
+              "Query": "",
+              "BaseUrl": "",
+              "EquivalentUrls": [],
+              "Fragment": "",
+              "Title": "",
+              "CompareMode": 2,
+              "AlwaysUseTitleInCompare": false,
+              "FriendlyName": "HttpLocalhost3000Projects"
+            }
+          },
+          "Frame": null,
+          "FindInfo": null,
+          "FindExpression": {
+            "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+            "__value": {
+              "uniqueKey": "e+eXH2AqFu6towkPYQzeRcUMpMg=",
+              "NodeKind": 4,
+              "TechnologyType": 1,
+              "Name": "LogInDialogEmailTextbox",
+              "FindExpressions": [
+                {
+                  "Key": 1,
+                  "Value": {
+                    "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                    "__value": {
+                      "Clauses": [
+                        {
+                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                          "__value": {
+                            "Clause": "tagname=input"
+                          }
+                        },
+                        {
+                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                          "__value": {
+                            "Clause": "name=login"
+                          }
+                        }
+                      ],
+                      "Constraints": [],
+                      "ChainStops": []
+                    }
+                  }
+                }
+              ],
+              "BackupSearchClause": null,
+              "DataBindingExpressions": {}
+            }
+          },
+          "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlInputEmail",
+          "IsIndependent": true,
+          "DomStateKey": "",
+          "TechnologyType": 1,
+          "Version": 200
+        }
+      },
+      {
+        "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+        "__value": {
+          "Name": "",
+          "Region": null,
+          "Page": {
+            "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+            "__value": {
+              "Path": "http://localhost:3000/projectsinfo",
+              "Query": "",
+              "BaseUrl": "",
+              "EquivalentUrls": [],
+              "Fragment": "",
+              "Title": "",
+              "CompareMode": 2,
+              "AlwaysUseTitleInCompare": false,
+              "FriendlyName": "HttpLocalhost3000Projects"
+            }
+          },
+          "Frame": null,
+          "FindInfo": null,
+          "FindExpression": {
+            "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+            "__value": {
+              "uniqueKey": "A5Cj02ntoSwMfjJ1Q9SiDf5ljHc=",
+              "NodeKind": 4,
+              "TechnologyType": 1,
+              "Name": "LogInDialogPasswordTextbox",
+              "FindExpressions": [
+                {
+                  "Key": 1,
+                  "Value": {
+                    "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                    "__value": {
+                      "Clauses": [
+                        {
+                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                          "__value": {
+                            "Clause": "tagname=input"
+                          }
+                        },
+                        {
+                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                          "__value": {
+                            "Clause": "name=pass"
+                          }
+                        }
+                      ],
+                      "Constraints": [],
+                      "ChainStops": []
+                    }
+                  }
+                }
+              ],
+              "BackupSearchClause": null,
+              "DataBindingExpressions": {}
+            }
+          },
+          "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlInputPassword",
+          "IsIndependent": true,
+          "DomStateKey": "",
+          "TechnologyType": 1,
+          "Version": 200
+        }
+      },
+      {
+        "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+        "__value": {
+          "Name": "",
+          "Region": null,
+          "Page": {
+            "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+            "__value": {
+              "Path": "http://localhost:3000/admin/users/new",
+              "Query": "",
+              "BaseUrl": "",
+              "EquivalentUrls": [],
+              "Fragment": "",
+              "Title": "",
+              "CompareMode": 2,
+              "AlwaysUseTitleInCompare": false,
+              "FriendlyName": "HttpLocalhost3000AdminUs0"
+            }
+          },
+          "Frame": null,
+          "FindInfo": null,
+          "FindExpression": {
+            "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+            "__value": {
+              "uniqueKey": "U7TeT/g5XYWvLaCFpKNUeP1xliY=",
+              "NodeKind": 4,
+              "TechnologyType": 1,
+              "Name": "EmailTextbox",
+              "FindExpressions": [
+                {
+                  "Key": 1,
+                  "Value": {
+                    "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                    "__value": {
+                      "Clauses": [
+                        {
+                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                          "__value": {
+                            "Clause": "tagname=input"
+                          }
+                        },
+                        {
+                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                          "__value": {
+                            "Clause": "id=email"
+                          }
+                        }
+                      ],
+                      "Constraints": [],
+                      "ChainStops": []
+                    }
+                  }
+                }
+              ],
+              "BackupSearchClause": null,
+              "DataBindingExpressions": {}
+            }
+          },
+          "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlInputEmail",
+          "IsIndependent": true,
+          "DomStateKey": "",
+          "TechnologyType": 1,
+          "Version": 200
+        }
+      },
+      {
+        "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+        "__value": {
+          "Name": "",
+          "Region": null,
+          "Page": {
+            "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+            "__value": {
+              "Path": "http://localhost:3000/admin/users/new",
+              "Query": "",
+              "BaseUrl": "",
+              "EquivalentUrls": [],
+              "Fragment": "",
+              "Title": "",
+              "CompareMode": 2,
+              "AlwaysUseTitleInCompare": false,
+              "FriendlyName": "HttpLocalhost3000AdminUs0"
+            }
+          },
+          "Frame": null,
+          "FindInfo": null,
+          "FindExpression": {
+            "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+            "__value": {
+              "uniqueKey": "w+NsH5KGOg8o+v0hXkVM09PMfCs=",
+              "NodeKind": 4,
+              "TechnologyType": 1,
+              "Name": "LastNameTextbox",
+              "FindExpressions": [
+                {
+                  "Key": 1,
+                  "Value": {
+                    "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                    "__value": {
+                      "Clauses": [
+                        {
+                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                          "__value": {
+                            "Clause": "tagname=input"
+                          }
+                        },
+                        {
+                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                          "__value": {
+                            "Clause": "id=lastName"
+                          }
+                        }
+                      ],
+                      "Constraints": [],
+                      "ChainStops": []
+                    }
+                  }
+                }
+              ],
+              "BackupSearchClause": null,
+              "DataBindingExpressions": {}
+            }
+          },
+          "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlInputText",
+          "IsIndependent": true,
+          "DomStateKey": "",
+          "TechnologyType": 1,
+          "Version": 200
+        }
+      },
+      {
+        "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+        "__value": {
+          "Name": "",
+          "Region": null,
+          "Page": {
+            "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+            "__value": {
+              "Path": "http://localhost:3000/admin/users/new",
+              "Query": "",
+              "BaseUrl": "",
+              "EquivalentUrls": [],
+              "Fragment": "",
+              "Title": "",
+              "CompareMode": 2,
+              "AlwaysUseTitleInCompare": false,
+              "FriendlyName": "HttpLocalhost3000AdminUs0"
+            }
+          },
+          "Frame": null,
+          "FindInfo": null,
+          "FindExpression": {
+            "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+            "__value": {
+              "uniqueKey": "5kPF6SnuuGFgPmZBUM1wunuc0Uo=",
+              "NodeKind": 4,
+              "TechnologyType": 1,
+              "Name": "FirstNameTextbox",
+              "FindExpressions": [
+                {
+                  "Key": 1,
+                  "Value": {
+                    "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                    "__value": {
+                      "Clauses": [
+                        {
+                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                          "__value": {
+                            "Clause": "tagname=input"
+                          }
+                        },
+                        {
+                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                          "__value": {
+                            "Clause": "id=firstName"
+                          }
+                        }
+                      ],
+                      "Constraints": [],
+                      "ChainStops": []
+                    }
+                  }
+                }
+              ],
+              "BackupSearchClause": null,
+              "DataBindingExpressions": {}
+            }
+          },
+          "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlInputText",
+          "IsIndependent": true,
+          "DomStateKey": "",
+          "TechnologyType": 1,
+          "Version": 200
+        }
+      },
+      {
+        "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+        "__value": {
+          "Name": "",
+          "Region": null,
+          "Page": {
+            "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+            "__value": {
+              "Path": "http://localhost:3000/admin/users/new",
+              "Query": "",
+              "BaseUrl": "",
+              "EquivalentUrls": [],
+              "Fragment": "",
+              "Title": "",
+              "CompareMode": 2,
+              "AlwaysUseTitleInCompare": false,
+              "FriendlyName": "HttpLocalhost3000AdminUs0"
+            }
+          },
+          "Frame": null,
+          "FindInfo": null,
+          "FindExpression": {
+            "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+            "__value": {
+              "uniqueKey": "vgniFWEPR+vPYUoldZ5eJ8Z8nKk=",
+              "NodeKind": 4,
+              "TechnologyType": 1,
+              "Name": "PasswordTextbox",
+              "FindExpressions": [
+                {
+                  "Key": 1,
+                  "Value": {
+                    "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                    "__value": {
+                      "Clauses": [
+                        {
+                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                          "__value": {
+                            "Clause": "tagname=input"
+                          }
+                        },
+                        {
+                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                          "__value": {
+                            "Clause": "id=password"
+                          }
+                        }
+                      ],
+                      "Constraints": [],
+                      "ChainStops": []
+                    }
+                  }
+                }
+              ],
+              "BackupSearchClause": null,
+              "DataBindingExpressions": {}
+            }
+          },
+          "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlInputPassword",
+          "IsIndependent": true,
+          "DomStateKey": "",
+          "TechnologyType": 1,
+          "Version": 200
+        }
+      },
+      {
+        "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+        "__value": {
+          "Name": "",
+          "Region": null,
+          "Page": {
+            "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+            "__value": {
+              "Path": "http://localhost:3000/admin/users/new",
+              "Query": "",
+              "BaseUrl": "",
+              "EquivalentUrls": [],
+              "Fragment": "",
+              "Title": "",
+              "CompareMode": 2,
+              "AlwaysUseTitleInCompare": false,
+              "FriendlyName": "HttpLocalhost3000AdminUs0"
+            }
+          },
+          "Frame": null,
+          "FindInfo": null,
+          "FindExpression": {
+            "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+            "__value": {
+              "uniqueKey": "RwYe8g+C5KH7oyvl8Bsn8tgMpLw=",
+              "NodeKind": 4,
+              "TechnologyType": 1,
+              "Name": "RepeatPasswordTextbox",
+              "FindExpressions": [
+                {
+                  "Key": 1,
+                  "Value": {
+                    "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                    "__value": {
+                      "Clauses": [
+                        {
+                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                          "__value": {
+                            "Clause": "tagname=input"
+                          }
+                        },
+                        {
+                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                          "__value": {
+                            "Clause": "id=passwordRepeat"
+                          }
+                        }
+                      ],
+                      "Constraints": [],
+                      "ChainStops": []
+                    }
+                  }
+                }
+              ],
+              "BackupSearchClause": null,
+              "DataBindingExpressions": {}
+            }
+          },
+          "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlInputPassword",
+          "IsIndependent": true,
+          "DomStateKey": "",
+          "TechnologyType": 1,
+          "Version": 200
+        }
+      }
+    ],
+    "HtmlDescription": "",
+    "SilverlightEnabled": false,
+    "IsSilverlightApp": false,
+    "SilverlightAppWebUrl": "",
+    "SilverlightAppLocalDirectory": "",
+    "SilverlightAppRecordLocal": false,
+    "SilverlightAppOriginUri": null,
+    "WpfAppPath": null,
+    "UseDefaultWpfAppPath": false,
+    "TestAssembly": "TestStudioCustomDataFeed.dll",
+    "TestAssemblyPath": "bin",
+    "TestClass": "TestStudioCustomDataFeed.Tests.DataFeedUse.DataFeedUse",
+    "IsManual": false,
+    "ResourceFilePath": "Tests\\DataFeedUse\\DataFeedUse.resx",
+    "HasCodeBehind": true,
+    "DataInfo": {
+      "__type": "ArtOfTest.Common.Design.Data.DataInfo",
+      "__value": {
+        "ConnectionString": "",
+        "DefaultToGrid": true,
+        "DataRange": "",
+        "LoadRecordsCount": null,
+        "DataTableName": "",
+        "DataProvider": "",
+        "DataEnabled": true,
+        "HasBuiltinGrid": false,
+        "DataType": 4,
+        "BuiltInData": null,
+        "BuiltInDocumentKey": null,
+        "TSQL": ""
+      }
+    },
+    "VSProperties": {
+      "Timeout": "0",
+      "ExecId": "00000000-0000-0000-0000-000000000000"
+    },
+    "DeploymentItems": [],
+    "IsTestFragment": false,
+    "StopTestListOnFailure": false,
+    "InheritParentDataSource": false,
+    "BrowserType": 0,
+    "QcId": 0,
+    "QcFilePath": null,
+    "QcTestVersionStamp": 0,
+    "TestLinks": [],
+    "Description": "",
+    "Name": "DataFeedUse",
+    "Owner": null,
+    "Path": "Tests\\DataFeedUse\\DataFeedUse.tstest",
+    "Priority": 0,
+    "TestType": 0,
+    "UniqueId": "9bde206a-520a-46ab-8827-d7292a50477b",
+    "Id": "9bde206a-520a-46ab-8827-d7292a50477b",
+    "ProjectId": "cafa7984-7405-4503-a6c1-756a185a4c9c",
+    "Version": 200
+  }
+}

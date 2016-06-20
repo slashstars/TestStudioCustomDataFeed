@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project>
+  <actions/>
+  <description>Jenkins and ArtOfTest.Runner integration.</description>
+  <keepDependencies>false</keepDependencies>
+  <properties/>
+  <scm class="hudson.scm.NullSCM"/>
+  <canRoam>true</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers/>
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <hudson.plugins.msbuild.MsBuildBuilder plugin="msbuild@1.25">
+      <msBuildName>Default MSBuild</msBuildName>
+      <msBuildFile>E:\NET_PROJECTS\TestStudioCustomDataFeed\TestStudioCustomDataFeed.sln</msBuildFile>
+      <cmdLineArgs></cmdLineArgs>
+      <buildVariablesAsProperties>false</buildVariablesAsProperties>
+      <continueOnBuildFailure>false</continueOnBuildFailure>
+      <unstableIfWarnings>false</unstableIfWarnings>
+    </hudson.plugins.msbuild.MsBuildBuilder>
+    <hudson.tasks.BatchFile>
+      <command>&quot;C:\Program Files (x86)\Telerik\Test Studio\Bin\ArtOfTest.Runner.exe&quot; list=&quot;E:\NET_PROJECTS\TestStudioCustomDataFeed\TestStudioCustomDataFeed\TestLists\DataFeedList.aiilist&quot; out=&quot;E:\JenkinsResults\%JOB_NAME%%BUILD_NUMBER%&quot;</command>
+    </hudson.tasks.BatchFile>
+  </builders>
+  <publishers>
+    <hudson.tasks.ArtifactArchiver>
+      <artifacts>E:\JenkinsResults\%JOB_NAME%%BUILD_NUMBER%\**</artifacts>
+      <allowEmptyArchive>false</allowEmptyArchive>
+      <onlyIfSuccessful>false</onlyIfSuccessful>
+      <fingerprint>false</fingerprint>
+      <defaultExcludes>true</defaultExcludes>
+      <caseSensitive>true</caseSensitive>
+    </hudson.tasks.ArtifactArchiver>
+  </publishers>
+  <buildWrappers/>
+</project>

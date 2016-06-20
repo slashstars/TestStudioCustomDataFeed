@@ -1,0 +1,156 @@
+{
+  "__type": "ArtOfTest.WebAii.Design.ProjectModel.Test",
+  "__value": {
+    "DomStatesCounter": {},
+    "WebKitExecutionDelay": 0,
+    "ReuseAppWindow": 0,
+    "ProfilerResultsDirectory": null,
+    "ProfilerServerName": null,
+    "ProfilerBenchmarkResultsFilePath": null,
+    "ProfilerBenchmarkResultsId": "00000000-0000-0000-0000-000000000000",
+    "ProfilerConfigurationId": "00000000-0000-0000-0000-000000000000",
+    "ProfilerConfigurations": {},
+    "CurrentReferences": [],
+    "Steps": {
+      "__type": "ArtOfTest.Common.Design.ProjectModel.AutomationStepList",
+      "__value": [
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "2f8b3bd9-76fb-4d27-ba88-12af76899c59",
+            "Description": "Get feed data.",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CodedStepDescriptor",
+              "__value": {
+                "Code": "            JArray feedArray = Utility.GetJSONArrayFromFile(@\"Tests\\DataFeedLoad\\DataFeed.json\");\r\n            for (int i = 0; i < feedArray.Count; i++)\r\n            {\r\n                JObject feedObject = feedArray.GetJObject(i);\r\n                User user = new User\r\n                {\r\n                    FirstName = feedObject.GetString(\"FirstName\"),\r\n                    LastName = feedObject.GetString(\"LastName\"),\r\n                    Username = feedObject.GetString(\"Username\"),\r\n                    IsAdmin = feedObject.GetBoolean(\"IsAdmin\").Value\r\n                };\r\n                userFeed.Add(user);\r\n            }\r\n",
+                "RequiresSilverlight": false,
+                "WaitOnElements": true,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "Pause": 0,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {},
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 1,
+            "Id": "GetFeedData",
+            "StepState": 1,
+            "ContinueOnFailure": false,
+            "StepImageKey": "DataFeedLoadeqtwyx5a.aw3",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "251795b8-9634-4f14-b943-95a728bf487c",
+            "Description": "Log feed data.",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CodedStepDescriptor",
+              "__value": {
+                "Code": "            foreach (var user in userFeed)\r\n            {\r\n                Manager.Log.WriteLine(user.FirstName + \" \" + user.LastName);\r\n            }\r\n",
+                "RequiresSilverlight": false,
+                "WaitOnElements": true,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "Pause": 0,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {},
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 2,
+            "Id": "LogFeedData",
+            "StepState": 1,
+            "ContinueOnFailure": false,
+            "StepImageKey": "DataFeedLoadpjgynvwh.nme",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        }
+      ]
+    },
+    "IndependentDescriptors": [],
+    "HtmlDescription": "",
+    "SilverlightEnabled": false,
+    "IsSilverlightApp": false,
+    "SilverlightAppWebUrl": "",
+    "SilverlightAppLocalDirectory": "",
+    "SilverlightAppRecordLocal": false,
+    "SilverlightAppOriginUri": null,
+    "WpfAppPath": null,
+    "UseDefaultWpfAppPath": false,
+    "TestAssembly": "TestStudioCustomDataFeed.dll",
+    "TestAssemblyPath": "bin",
+    "TestClass": "TestStudioCustomDataFeed.Tests.DataFeedLoad.DataFeedLoad",
+    "IsManual": false,
+    "ResourceFilePath": "Tests\\DataFeedLoad\\DataFeedLoad.resx",
+    "HasCodeBehind": true,
+    "DataInfo": {
+      "__type": "ArtOfTest.Common.Design.Data.DataInfo",
+      "__value": {
+        "ConnectionString": "",
+        "DefaultToGrid": true,
+        "DataRange": "",
+        "LoadRecordsCount": null,
+        "DataTableName": "",
+        "DataProvider": "",
+        "DataEnabled": true,
+        "HasBuiltinGrid": false,
+        "DataType": 4,
+        "BuiltInData": null,
+        "BuiltInDocumentKey": null,
+        "TSQL": ""
+      }
+    },
+    "VSProperties": {
+      "Timeout": "0",
+      "ExecId": "00000000-0000-0000-0000-000000000000"
+    },
+    "DeploymentItems": [],
+    "IsTestFragment": false,
+    "StopTestListOnFailure": false,
+    "InheritParentDataSource": false,
+    "BrowserType": 0,
+    "QcId": 0,
+    "QcFilePath": null,
+    "QcTestVersionStamp": 0,
+    "TestLinks": [],
+    "Description": "",
+    "Name": "DataFeedLoad",
+    "Owner": null,
+    "Path": "Tests\\DataFeedLoad\\DataFeedLoad.tstest",
+    "Priority": 0,
+    "TestType": 0,
+    "UniqueId": "e93d3d20-c72a-4f60-a62f-67bf2876184d",
+    "Id": "e93d3d20-c72a-4f60-a62f-67bf2876184d",
+    "ProjectId": "cafa7984-7405-4503-a6c1-756a185a4c9c",
+    "Version": 200
+  }
+}
